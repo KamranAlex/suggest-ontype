@@ -49,6 +49,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  margin-right: 17rem;
 }
 form {
   width: auto;
@@ -64,6 +65,9 @@ form label {
 input[type='text'] {
   padding: 1rem 3rem;
   border-radius: 3px;
+  background: #c4c4c4;
+  outline: none;
+  border: 2px solid #c4c4c4;
 }
 input:focus-visible {
   outline: none;
@@ -91,16 +95,16 @@ input:focus-visible {
   margin-left: 3px;
   font-size: 14px;
   font-weight: 700;
-  background-color: #eb023c;
-  color: #ffffff;
-  border: 1px solid #eb023c;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   outline: none;
 }
 .remove:hover {
-  background-color: #eb023c;
+  background-color: #ffffff;
   color: #000000;
-  border: 1px solid #eb023c;
+  border: 1px solid #ffffff;
   cursor: pointer;
 }
 
